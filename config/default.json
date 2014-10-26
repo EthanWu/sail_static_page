@@ -1,3 +1,4 @@
 {
-	"port":3000
+    "port":3000,
+    "mongodb_path":"mongodb://localhost/sail-default"
 }
