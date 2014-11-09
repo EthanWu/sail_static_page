@@ -7,5 +7,5 @@ Using following modules:
 
 >nodejs
 >express
->mongodb
+>Mysql
 >test
