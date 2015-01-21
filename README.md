@@ -1,11 +1,2 @@
-Server-Framework
-================
-
-A Server Framework for Sail.
-
-Using following modules:
-
->nodejs
->express
->Mysql
->test
+# sail_static_page
+Sail 静态网站。
