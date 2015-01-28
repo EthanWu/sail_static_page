@@ -22,7 +22,8 @@ text-decoration:none;
 body {
 	font: 13px/20px Arial, Helvetica, sans-serif;
 	color:#525252;
-	background-color: #322f2f;
+	/*background-color: #322f2f;*/
+	background-color: white
 	position:relative;
 	min-width:960px;
 	height: 100%;
@@ -172,7 +173,7 @@ a.link-1:hover {
 
 .fleft {
 	float: left;
-	margin-right: 20px;
+	margin-right: 0px;
 	margin-top: 4px;
 	margin-bottom: 6px;
 }
@@ -225,13 +226,10 @@ a.link-1:hover {
 header {
 	display: block;
 	padding-top: 37px;
+	padding-bottom: 37px;
 	background-color: #323232;
 }
 
-header {
-	padding-bottom: 38px;
-
-}
 
 header h1 {
 	float: left;
@@ -379,11 +377,11 @@ header h1 a img {
 
 .content {
 
-	background: url(../images/cont_bg.png) 0 0 repeat;
+	background: url(../images/white.png) 0 0 repeat;
 	padding-bottom: 60px;
 }
 .bg1 {
-	background: url(../images/cont_bg.png) 0 0 repeat;
+	background: url(../images/white.png) 0 0 repeat;
 }
 
 .content.page1 h3 {
@@ -445,14 +443,23 @@ address dt p {
 
 footer {
 	display: block;
-	padding: 29px 20px 29px 0px;
+	padding: 0px 20px 0px 30px;
 	display: block;
-	color: #fff;
+	color: white;
 	text-transform: uppercase;
-}
+	height: 65px;
+	bottom:0;
+	background-color: black;
+	width: 100%;
+	font-size: 100%;clear:both;
+	position:absolute;
 
+
+	position:fixed!important;  bottom:0px!important; 
+	bottom:auto; top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop+(documentElement.clientHeight - this.clientHeight):document.body.scrollTop+(document.body.clientHeight - this.clientHeight));
+}
 footer .socials {
-	padding-top: 2px;
+	padding-top: 10px;
 	float: right;
 	padding-bottom: 10px;
 	color: #00BFFF;
@@ -471,4 +478,3 @@ footer .socials a {
 footer a:hover {
 	text-decoration: underline;
 }
-
