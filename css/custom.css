@@ -8,3 +8,20 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+.team-intro {
+    text-align: center;
+}
+.blue-emph {
+    color: #339BEB;
+    font-weight: bold;
+}
+.blue-italic {
+    color: #339BEB;
+    font-style: italic;
+    text-indent: 20px;
+    font-size: 14px;
+}
+
+.radius-pic {
+    border-radius: 10px;
+}
