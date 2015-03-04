@@ -229,7 +229,7 @@ blockquote {
 	background-color: rgba(85, 172, 238, 0.7);
 }
 .translucent-bg.deep-gray:after {
-    background-color: #333333;
+    background-color: #1e1e1e;
 }
 .translucent-bg .container {
 	z-index: 3;
