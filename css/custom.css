@@ -11,10 +11,12 @@ File Description: Place here your custom CSS styles
 .team-intro {
     text-align: center;
 }
+
 .blue-emph {
     color: #339BEB;
     font-weight: bold;
 }
+
 .blue-italic {
     color: #339BEB;
     font-style: italic;
