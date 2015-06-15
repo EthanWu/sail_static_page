@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <img src="../images/旅行签2.jpg" onclick="jumpToBaidu()">
+</body>
+<script language="javascript" type="text/javascript">
+    var jumpToBaidu = function() {
+        var index = Math.floor(Math.random()*4);
+        var urlArray = ["http://mp.weixin.qq.com/s?__biz=MjM5MTkzODk3Mw==&mid=209771410&idx=3&sn=b1c0190aef8bf820b3059738838adf7c#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTkzODk3Mw==&mid=209141645&idx=1&sn=644d80c5715a09fb47c5861da8f9f0d5&scene=18#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTkzODk3Mw==&mid=209235864&idx=1&sn=876dbdeb098a399c2426d263c4b2713f#rd",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTkzODk3Mw==&mid=209235864&idx=2&sn=a99ee3e72412a3da5bb4fda5c0b27735#rd"]
+        window.location.href = urlArray[index];
+    }
+</script>
+</html>
